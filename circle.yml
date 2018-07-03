@@ -3,7 +3,7 @@ test:
     - php ./test.php
 deployment:
   staging:
-    branch: master
+    branch: develop
     codedeploy:
       circleci-demo-app:
         application_root: /
